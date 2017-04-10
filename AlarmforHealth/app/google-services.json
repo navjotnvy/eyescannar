@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "810411488888",
+    "firebase_url": "https://fir-d8d9c.firebaseio.com",
+    "project_id": "fir-d8d9c",
+    "storage_bucket": "fir-d8d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810411488888:android:4dc76394e9a7b854",
+        "android_client_info": {
+          "package_name": "com.navjot.faceproject.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810411488888-u6e0r2q4upb5ttctjcgictodpjo208e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ECdAVyGV8_bew-XUa7fJ1MTMgMNMHDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810411488888:android:af89cacef43bab57",
+        "android_client_info": {
+          "package_name": "com.navjot.faceproject.alarmforhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810411488888-peldmpkp7h39aa6ervsjgb507l6ctu56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navjot.faceproject.alarmforhealth",
+            "certificate_hash": "f4e2385442534835ae55feb6ba1cf9c438e7eddf"
+          }
+        },
+        {
+          "client_id": "810411488888-710uh6rug6sveamflrcgmnnbkvep4b84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navjot.faceproject.alarmforhealth",
+            "certificate_hash": "5a96c87fc66b8480e8eb0391a29b9699a3ee91a3"
+          }
+        },
+        {
+          "client_id": "810411488888-u6e0r2q4upb5ttctjcgictodpjo208e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ECdAVyGV8_bew-XUa7fJ1MTMgMNMHDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810411488888-u6e0r2q4upb5ttctjcgictodpjo208e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810411488888:android:a6d681c2bccfa3b7",
+        "android_client_info": {
+          "package_name": "com.navjot.faceproject.alarmforhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810411488888-2daq11btk218mrujopaqa1kpk3oo01d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navjot.faceproject.alarmforhealth",
+            "certificate_hash": "f4e2385442534835ae55feb6ba1cf9c438e7eddf"
+          }
+        },
+        {
+          "client_id": "810411488888-u6e0r2q4upb5ttctjcgictodpjo208e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ECdAVyGV8_bew-XUa7fJ1MTMgMNMHDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810411488888-u6e0r2q4upb5ttctjcgictodpjo208e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

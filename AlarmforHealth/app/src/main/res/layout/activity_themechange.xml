@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_themechange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.navjot.faceproject.alarmforhealth.Themechange">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/antique_tn"
+        android:layout_weight="0.34"
+        android:id="@+id/relativeLayoutleaf">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundrose_tn"
+        android:layout_weight="0.31"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayoutbudah" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundyelwrite_tn"
+        android:layout_weight="0.41"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayoutdesert" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deadleaf_tn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/relativeLayoutbg">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellowpainting_tn"
+        android:layout_weight="0.24"
+        android:id="@+id/relativeLayoutyel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/relativeLayoutbg"
+        android:layout_alignStart="@+id/relativeLayoutbg">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/abstract_tn"
+        android:layout_weight="0.50"
+        android:id="@+id/relativeLayoutabst"
+        android:layout_alignTop="@+id/relativeLayoutyel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </RelativeLayout>
+</RelativeLayout>

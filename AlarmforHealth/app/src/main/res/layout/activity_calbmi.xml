@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calbmi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.navjot.faceproject.alarmforhealth.Calbmi"
+    android:background="@drawable/yellowpainting"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.09"
+        android:hint="Enter Your Height In Inches"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical|center"
+        android:layout_marginTop="80sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="0.09"
+        android:gravity="center_vertical|center"
+        android:textColor="@android:color/black"
+        android:hint="Enter Your Weight In Pounds"
+        android:layout_marginTop="30sp" />
+
+    <Button
+        android:text="Calculate BMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_weight="0.09"
+        android:gravity="center_vertical|center"
+        android:background="@android:drawable/screen_background_light_transparent" />
+
+</LinearLayout>

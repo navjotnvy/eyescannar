@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.navjot.faceproject.alarmforhealth.MainActivity"
+    android:background="@drawable/yellowpainting">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/addbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:layout_weight="1"
+            android:layout_marginBottom="86dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:gravity="center_vertical|center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/common_google_signin_btn_text_dark_disabled">
+
+            <com.google.android.gms.ads.AdView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/adView"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_length"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/layoutbutton"
+            android:elevation="0dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled">
+
+            <Button
+                android:text="@string/alarm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_length"
+                android:id="@+id/button3"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@drawable/iconalarm"
+                android:gravity="bottom|center_vertical|center" />
+
+            <Button
+                android:text="@string/profile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_length"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button3"
+                android:id="@+id/button"
+                android:layout_weight="1"
+                android:background="@drawable/proficon"
+                android:gravity="bottom|center_vertical|center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_length"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:background="@drawable/proficonadd"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:textSize="14sp"
+                android:text="@string/profileplus" />
+
+            <Button
+                android:text="@string/setting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_length"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/button"
+                android:layout_toEndOf="@+id/button"
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:background="@drawable/circleset"
+                android:gravity="bottom|center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/textView6"
+            android:padding="20sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="11dp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/textView5"
+            android:padding="20sp"
+            android:textAlignment="center"
+            android:layout_above="@+id/add"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_above="@+id/add"
+            android:layout_below="@+id/layoutbutton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_disabled" />
+
+    </RelativeLayout>
+</LinearLayout>
